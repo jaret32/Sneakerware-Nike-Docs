@@ -7,3 +7,5 @@ Welcome to Sneaker Wear Nike's documentation!
    installation
 
    overview
+
+   issues

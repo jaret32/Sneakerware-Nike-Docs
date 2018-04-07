@@ -15,6 +15,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Common Issues" href="issues.html" />
     <link rel="prev" title="Installation" href="installation.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -37,10 +38,18 @@
 </div>
 <div class="section" id="accounts">
 <h2>Accounts<a class="headerlink" href="#accounts" title="Permalink to this headline">¶</a></h2>
-<p>The accounts tab is used to display and save the user’s SNKRS accounts.  Each account consists of an email, a password, and a corresponding profile.</p>
+<p>The accounts tab is used to display and save the user’s SNKRS accounts.  Each account consists of an email and a password.  Through the accounts tab you can perform several different account specific tasks.</p>
 <div class="section" id="importing">
 <h3>Importing<a class="headerlink" href="#importing" title="Permalink to this headline">¶</a></h3>
-<p>Accounts can be imported from an excel file by clicking on the import button in the accounts tab and selecting the excel file.</p>
+<p>Accounts can be imported from an excel file by clicking on the import button in the accounts tab and selecting the excel file.  The format for importing tasks from excel is email in the first column, and password in the second column.  Because the first two columns are the same for both accounts and tasks, accounts can be imported using the same sheet used for tasks.</p>
+</div>
+<div class="section" id="verifying">
+<h3>Verifying<a class="headerlink" href="#verifying" title="Permalink to this headline">¶</a></h3>
+<p>The verification status of accounts can be checked by clicking the verify button in the accounts tab. After verifying accounts, all verified accounts can be exported to excel by clicking the export button in the accounts tab.</p>
+</div>
+<div class="section" id="checking">
+<h3>Checking<a class="headerlink" href="#checking" title="Permalink to this headline">¶</a></h3>
+<p>You can check an accounts recent launch entry results by clicking the check button in the accounts tab.</p>
 </div>
 <div class="section" id="deleting">
 <h3>Deleting<a class="headerlink" href="#deleting" title="Permalink to this headline">¶</a></h3>
@@ -49,10 +58,10 @@
 </div>
 <div class="section" id="tasks">
 <h2>Tasks<a class="headerlink" href="#tasks" title="Permalink to this headline">¶</a></h2>
-<p>The tasks tab is used to display and save the user’s SNKRS tasks.  Each task is made up of an account, a style-code, and a shoe size.</p>
+<p>The tasks tab is used to display and save the user’s SNKRS tasks.  Each task is made up of an account, a style-code, a shoe size, and a checkout profile.</p>
 <div class="section" id="id1">
 <h3>Importing<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<p>Tasks can be imported from an excel file by clicking on the import button in the tasks tab and selecting the excel file.</p>
+<p>Tasks can be imported from an excel file by clicking on the import button in the tasks tab and selecting the excel file.  The template for importing tasks from excel can be found at the following link, <a class="reference external" href="https://drive.google.com/open?id=1_RSHSVLomMyiWml9AUlGoPfFue_JsQIe_sigErLxYV8">https://drive.google.com/open?id=1_RSHSVLomMyiWml9AUlGoPfFue_JsQIe_sigErLxYV8</a>. Do not include the first row in the final sheet.  If no profile exists with the specified label, the task cannot be imported.  Make sure you import your profiles before importing tasks that reference the profiles.</p>
 </div>
 <div class="section" id="starting">
 <h3>Starting<a class="headerlink" href="#starting" title="Permalink to this headline">¶</a></h3>
@@ -69,26 +78,37 @@
 </div>
 <div class="section" id="profiles">
 <h2>Profiles<a class="headerlink" href="#profiles" title="Permalink to this headline">¶</a></h2>
+<p>The Profiles tab is used to create and manage checkout profiles.</p>
 <div class="section" id="creating">
 <h3>Creating<a class="headerlink" href="#creating" title="Permalink to this headline">¶</a></h3>
+<p>To create a checkout profile, fill out all of the required fields in the profiles tab and click the add profile button.  For non United States profiles, please just select any state for now (we will fix this later), it will not affect the checkout process.  Make sure profile label’s are unique, if they are not the new profile will replace the older.</p>
+</div>
+<div class="section" id="id3">
+<h3>Importing<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Profiles can be imported from .xlsx files.  The template to use can be found at the following link, <a class="reference external" href="https://drive.google.com/open?id=1feC-4Lvchmug10hoA_XW1Nbs9nEEoLnVdbZPwAdOm2o">https://drive.google.com/open?id=1feC-4Lvchmug10hoA_XW1Nbs9nEEoLnVdbZPwAdOm2o</a>.  Make sure to follow all specified field formats such as State, Country, and Card Expiration.  The country code for United Kingdom is GB.</p>
 </div>
 <div class="section" id="editing">
 <h3>Editing<a class="headerlink" href="#editing" title="Permalink to this headline">¶</a></h3>
+<p>To edit a profile, select the profile label in the selector near the top of the profiles tab and click the edit button.  Once the edit button has been selected, the profile selector will be disabled and you must either select Save Profile to save the changes you have made, or Cancel to cancel any changes and return to the profile creator.</p>
 </div>
-<div class="section" id="id3">
-<h3>Deleting<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>Deleting<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>To delete a single profile, select the profile label in the selector and click the delete button.  To delete all profiles, click the clear button in the upper right hand corner.</p>
 </div>
 </div>
 <div class="section" id="proxies">
 <h2>Proxies<a class="headerlink" href="#proxies" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id4">
-<h3>Importing<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="adding">
+<h3>Adding<a class="headerlink" href="#adding" title="Permalink to this headline">¶</a></h3>
+<p>To add proxies, paste them into the text area on the proxies tab and hit the add button.  Each proxy must be on a new line in the usual format of ip:port or ip:port:user:pass.</p>
 </div>
 <div class="section" id="testing">
 <h3>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h3>
+<p>The proxy testing feature has not been implemented yet.</p>
 </div>
 <div class="section" id="id5">
 <h3>Deleting<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Click the delete button in the top right corner to clear all proxies.</p>
 </div>
 </div>
 <div class="section" id="settings">
@@ -109,6 +129,8 @@
 <li><a class="reference internal" href="#dashboard">Dashboard</a></li>
 <li><a class="reference internal" href="#accounts">Accounts</a><ul>
 <li><a class="reference internal" href="#importing">Importing</a></li>
+<li><a class="reference internal" href="#verifying">Verifying</a></li>
+<li><a class="reference internal" href="#checking">Checking</a></li>
 <li><a class="reference internal" href="#deleting">Deleting</a></li>
 </ul>
 </li>
@@ -121,12 +143,13 @@
 </li>
 <li><a class="reference internal" href="#profiles">Profiles</a><ul>
 <li><a class="reference internal" href="#creating">Creating</a></li>
+<li><a class="reference internal" href="#id3">Importing</a></li>
 <li><a class="reference internal" href="#editing">Editing</a></li>
-<li><a class="reference internal" href="#id3">Deleting</a></li>
+<li><a class="reference internal" href="#id4">Deleting</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#proxies">Proxies</a><ul>
-<li><a class="reference internal" href="#id4">Importing</a></li>
+<li><a class="reference internal" href="#adding">Adding</a></li>
 <li><a class="reference internal" href="#testing">Testing</a></li>
 <li><a class="reference internal" href="#id5">Deleting</a></li>
 </ul>
@@ -140,6 +163,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="installation.html" title="previous chapter">Installation</a></li>
+      <li>Next: <a href="issues.html" title="next chapter">Common Issues</a></li>
   </ul></li>
 </ul>
 </div>
