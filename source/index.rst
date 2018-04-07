@@ -1,4 +1,4 @@
-Welcome to Sneaker Wear Nike's documentation!
+Welcome to Sneakerware Nike's documentation!
 =============================================
 
 .. toctree::
