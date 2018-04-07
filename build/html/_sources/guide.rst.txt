@@ -1,0 +1,75 @@
+Guide
+=====
+
+Dashboard
+^^^^^^^^^
+
+Accounts
+^^^^^^^^
+
+The accounts tab is used to display and save the user's SNKRS accounts.  Each account consists of an email, a password, and a corresponding profile.
+
+Importing
+---------
+
+Accounts can be imported from an excel file by clicking on the import button in the accounts tab and selecting the excel file.
+
+Deleting
+--------
+
+Accounts can be deleted individually by clicking on the account's trash icon, or they can be deleted all at once by clicking the clear button on the accounts tab.
+
+Tasks
+^^^^^
+
+The tasks tab is used to display and save the user's SNKRS tasks.  Each task is made up of an account, a style-code, and a shoe size.
+
+Importing
+---------
+
+Tasks can be imported from an excel file by clicking on the import button in the tasks tab and selecting the excel file.
+
+Starting
+--------
+
+Tasks can be started individually by clicking on the task's play icon, or they can be started all at once by clicking the start button on the tasks tab.
+
+Stopping
+--------
+
+Tasks can be stopped individually by clicking on the task's stop icon, or they can be stopped all at once by clicking the stop button on the tasks tab.
+
+Deleting
+--------
+
+Tasks can be deleted individually by clicking on the task's trash icon, or they can be deleted all at once by clicking the clear button on the tasks tab.
+
+Profiles
+^^^^^^^^
+
+Creating
+--------
+
+Editing
+-------
+
+Deleting
+--------
+
+Proxies
+^^^^^^^
+
+Importing
+---------
+
+Testing
+-------
+
+Deleting
+--------
+
+Settings
+^^^^^^^^
+
+The settings tab is not supported at this moment.
+
