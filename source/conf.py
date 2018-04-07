@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sneaker Wear Nike'
-copyright = '2018, Jaret Boyer'
+project = 'Sneakerware Nike'
+copyright = '2018, Sneakerware'
 author = 'Jaret Boyer'
 
 # The short X.Y version
-version = ''
+version = '1.0.0'
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
